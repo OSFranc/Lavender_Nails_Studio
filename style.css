@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900*/
+
+.separador{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border-top: solid rgba(128, 128, 128, 0.348) 0.5px;
+    border-bottom: solid rgba(128, 128, 128, 0.348) 0.5px;
+}
+
+.barraPrincipal{
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 1000px;
+    background-color: #958b83;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.barraPrincipal ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.Titulo{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Titulo .TituloTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Titulo img{
+    height: 150px;
+    align-self: flex-end;
+}
+.Titulo h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Titulo p{
+    margin-top: 5px;
+}
+
+.divPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    width: 900px;
+}
+
+#DesignIdea{
+flex: 1;
+height: auto;
+width: 200px;
+border-radius: 25px;
+}
+
+.divPrincipal div{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#9d9d9d, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex: 1;
+    align-self: center;
+    padding: 50px;
+}
+
+.DesignOptions{
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #91553D;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+.DesignOptions img{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+}
